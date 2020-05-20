@@ -587,7 +587,11 @@ public abstract class AbstractProtocol<S> implements ProtocolHandler,
         endpoint.init();
     }
 
-
+    /**
+     * 启动EndPoint
+     *
+     * @throws Exception
+     */
     @Override
     public void start() throws Exception {
         if (getLog().isInfoEnabled()) {

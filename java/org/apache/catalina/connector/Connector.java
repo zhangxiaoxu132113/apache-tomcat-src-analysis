@@ -1072,6 +1072,9 @@ public class Connector extends LifecycleMBeanBase  {
 
 
     /**
+     * 【分析】：
+     * 修改自己的LifecycleState状态，然后启动ProtocalHandler
+     *
      * Begin processing requests via this Connector.
      *
      * @exception LifecycleException if a fatal startup error occurs

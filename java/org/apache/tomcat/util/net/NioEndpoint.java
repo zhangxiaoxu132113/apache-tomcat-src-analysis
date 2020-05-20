@@ -249,6 +249,8 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel> {
     }
 
     /**
+     * 【分析】
+     *
      * Start the NIO endpoint, creating acceptor, poller threads.
      */
     @Override
